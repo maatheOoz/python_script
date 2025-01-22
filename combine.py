@@ -3,11 +3,11 @@ from sys import argv, exit
 
 
 def extracao():
-    # Call the extracao.py script
+    
     subprocess.run(['python', 'extracao-cdi.py'], check=True)
 
 def visualizacao(output_image):
-    # Call the visualizacao.py script with the output image name
+    
     subprocess.run(['python', 'visualizacao.py', output_image], check=True)
 
 if __name__ == "__main__":
